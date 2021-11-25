@@ -1,0 +1,68 @@
+.calcul_core{
+    margin: 138px 523px;
+    background-color: #808080;
+    width:300px;
+    padding: 75px 19px;
+    border-radius: 77px;
+    border-block-color: black;
+    border: solid;
+    box-shadow: 24px 8px 1px #888888;
+}
+button{
+    color: rgb(76, 149, 243);
+    padding: 9px 23px;
+    margin: 10px 7px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 4px 0px 0px #00000052;
+}
+button:hover{
+    background-color: rgb(76, 149, 243);
+    color: black;
+}
+.On{
+    color: rgb(0 0 0);
+    padding: 8px 11px;
+    margin: 11px 7px;
+    margin-left: 148px;
+    margin-top: 16%;
+    background: #c20303;
+    border-radius: 15px;
+    box-shadow: 4px 0px 0px #00000052;
+}
+.On:hover{
+    background: #d42020;
+}
+
+.btn_div{
+    /* margin-top: 128px; */
+}
+.resultat{
+    border: solid;
+    border-block-color: black;
+    border-radius: 17px;
+    padding: 40px;
+}
+.clear{
+    background-color: rgb(243, 176, 76);
+    color: rgb(0, 0, 0);
+    /* margin-left: 40%; */
+    border-radius: 7px;
+}
+.result_div{
+    background: #92ba9a;
+    padding: 52px 36px;
+    border-block-color: black;
+    border: solid;
+    border-radius: 17px;
+}
+.egal{
+    background: rgb(76, 149, 243);
+    color: rgb(255, 255, 255);
+    padding: 8px 27px;
+    margin: 10px 7px;
+}
+.clear:hover{
+    background-color: rgb(243, 160, 36);
+    color: black;
+}
