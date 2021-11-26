@@ -1,5 +1,13 @@
+body{
+    background-color: #ffebcd42;
+}
+h1{
+    font-family: cursive;
+    margin-left: 360px;
+}
+
 .calcul_core{
-    margin: 138px 523px;
+    margin: 61px 525px;
     background-color: #808080;
     width:300px;
     padding: 75px 19px;

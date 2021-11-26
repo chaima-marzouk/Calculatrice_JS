@@ -123,7 +123,7 @@ const showScreen = document.querySelector("#output")
                     output = ""
                     showScreen.innerText = 0
                     break
-                  }else{
+                }else{
                       backThen = (backThen === 0) ? parseFloat(output) : calculate(backThen , parseFloat(output), sign);
                        // je met a jour l ecran
                        showScreen.innerText = backThen;
