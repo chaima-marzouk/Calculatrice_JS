@@ -61,7 +61,9 @@ const showScreen = document.querySelector("#output")
 //add event listner to listen to button beig presed by the user
 
     function ON(){
-        showScreen.innerText = "0";
+        showScreen.innerText = 0;
+        backThen = 0
+        output = ""
     }
 
      //listen to clicks 
@@ -73,17 +75,25 @@ const showScreen = document.querySelector("#output")
 
 
 
+
     function controleTouches(){
+        
+     if(showScreen.textContent.length > 13 && showScreen.innerText !== "Clear"){
+        console.log(showScreen.textContent.length)
+        alert("Your number content way much than  the calculator allows , please try again ,Thank u :) !")
+        return; 
+      } 
         //  html button element
         let touche = this.innerText;
-
+        
         //verfier si un chiffre ou un point 
-        if(parseFloat(touche)>= 0 || touche === "."){
+         if(parseFloat(touche)>= 0 || touche === "."){
             
         //je met a jour la valeur d'affichage 
         output +=  touche.toString()   
         showScreen.innerText = output ;
-    }else{
+        }
+        else{
           switch(touche){
               //Touche Clear reinitialise tout !!
               case "Clear":
